@@ -75,10 +75,12 @@ public class ListaObj <T> {
 
         /* Método removeElemento - recebe o elemento a ser removido */
         public Boolean removeElemento(T valor) {
+
             return removePeloIndice(busca(valor));
         }
 
         public int getTamanho() {
+
             return nroElem;
         }
         
